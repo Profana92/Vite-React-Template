@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd ./client/ && npm run dev",
     "lint": "cd ./client/ && eslint src/**/*.{js,jsx,ts,tsx}",
-    "lint:fix": "cd ./client/ && eslint --fix /src/**/*.{jsx,ts,tsx}"
+    "lint:fix": "cd ./client/ && eslint --fix src/**/*.{js,jsx,ts,tsx}"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,8 @@
     "@typescript-eslint/parser": "^6.3.0",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-react": "^7.33.1"
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "dependencies": {
     "eslint-plugin-react-hooks": "^4.6.0"

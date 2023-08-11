@@ -1,8 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
-const Home: React.FC = (props) => {
-  console.log(props)
-
+const Home: React.FC = () => {
   return (
     <div>
       <Helmet>
