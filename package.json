@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "cd ./client/ && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Profana92/Portfolio.git"
+  },
+  "author": "Wojciech Marczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Profana92/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Profana92/Portfolio#readme",
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
