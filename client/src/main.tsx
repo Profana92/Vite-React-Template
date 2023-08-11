@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HelmetProvider } from 'react-helmet-async'
-//React router setup
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+import './i18n'
 
 import ErrorPage from './routes/Error-page'
 import Home from './routes/pages/Home'
-import Root from './routes/root'
+import Root from './routes/Root'
 
 import './index.css'
-
 const router = createBrowserRouter([
   {
     path: '/',

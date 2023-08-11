@@ -1,17 +1,12 @@
 import React from 'react'
-import { NavLink,Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+
+import Header from '../components/Header'
+
 const Root: React.FC = () => {
   return (
     <>
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <NavLink to={`contacts/1`}>Your Name</NavLink>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <Outlet />
       <footer>This is a footer</footer>
     </>
